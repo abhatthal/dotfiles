@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Kash Bhatthal
+	email = kashb@google.com
+[alias]
+	pushall = !git remote | xargs -L1 git push --all
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+
