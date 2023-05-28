@@ -76,6 +76,9 @@ bindsym $mod+w exec firefox
 # open web browser in private browsing mode
 bindsym $mod+Shift+w exec firefox --private-window
 
+# open camera
+bindsym $mod+c exec guvcview
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
