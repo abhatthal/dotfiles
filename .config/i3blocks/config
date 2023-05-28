@@ -111,15 +111,16 @@ interval=10
 # The battery instance defaults to 0.
 [battery]
 #label=BAT
-label=⚡
+label=⚡ 
 interval=30
 
 # Date Time
 #
 [time]
 #command=date '+%Y-%m-%d %H:%M:%S'
-command=date '+%a, %b %d %H:%M:%S'
-interval=5
+#command=date '+%a, %b %d %H:%M:%S'
+command=date '+%a, %b %d %k:%M:%S %p'
+interval=1
 
 # Generic media player support
 #
