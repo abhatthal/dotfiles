@@ -122,6 +122,6 @@ alias tl="tmux ls"
 
 # manage dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias zshconfig='vim ~/.zshrc'
-alias i3config='vim ~/.config/i3/config'
+alias zshconfig="$EDITOR ~/.zshrc"
+alias i3config="$EDITOR ~/.config/i3/config"
 
