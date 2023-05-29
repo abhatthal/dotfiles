@@ -119,7 +119,7 @@ interval=30
 [time]
 #command=date '+%Y-%m-%d %H:%M:%S'
 #command=date '+%a, %b %d %H:%M:%S'
-command=date '+%a, %b %d %k:%M:%S %p'
+command=date '+%a, %b %d %I:%M:%S %p'
 interval=1
 
 # Generic media player support
