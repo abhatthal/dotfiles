@@ -83,7 +83,7 @@ bindsym $mod+c exec guvcview
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -fn $dmenu_fn
+bindsym $mod+d exec --no-startup-id dmenu_run -p Run -fn $dmenu_fn
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -185,6 +185,9 @@ bindsym $mod+Shift+o exec passmenu-otp --type -fn $dmenu_fn
 bindsym $mod+p exec passmenu -fn $dmenu_fn
 # get a password and type it 
 bindsym $mod+Shift+p exec passmenu --type -fn $dmenu_fn 
+
+# games menu
+bindsym $mod+g exec cat ~/.games | dmenu -p Games -fn $dmenu_fn | sh
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
