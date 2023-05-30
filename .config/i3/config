@@ -178,13 +178,13 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # get an OTP and copy it to clipboard
-bindsym $mod+o exec passmenu-otp -fn $dmenu_fn
+bindsym $mod+o exec passmenu-otp -p OTP -fn $dmenu_fn
 # get an OTP and type it
-bindsym $mod+Shift+o exec passmenu-otp --type -fn $dmenu_fn 
+bindsym $mod+Shift+o exec passmenu-otp --type -p OTP -fn $dmenu_fn 
 # get a password and copy it to clipboard
-bindsym $mod+p exec passmenu -fn $dmenu_fn
+bindsym $mod+p exec passmenu -p Passwd -fn $dmenu_fn
 # get a password and type it 
-bindsym $mod+Shift+p exec passmenu --type -fn $dmenu_fn 
+bindsym $mod+Shift+p exec passmenu --type -p Passwd -fn $dmenu_fn 
 
 # games menu
 bindsym $mod+g exec cat ~/.games | dmenu -p Games -fn $dmenu_fn | sh
