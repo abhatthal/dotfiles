@@ -68,7 +68,7 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal
 
 # open music player
-bindsym $mod+m exec spotify
+bindsym $mod+m exec spotify-launcher
 
 # open web browser
 bindsym $mod+w exec firefox
