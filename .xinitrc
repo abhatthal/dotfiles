@@ -1,4 +1,4 @@
 #!/bin/sh
-nitrogen --restore
+~/.fehbg &
 picom -b
 exec i3
