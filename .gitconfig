@@ -4,6 +4,13 @@
 	email = kashb@google.com
 [alias]
 	pushall = !git remote | xargs -L1 git push --all
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        sy = sync
+        d  = diff
+        a  = add
 [init]
 	defaultBranch = main
 [pull]
