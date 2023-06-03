@@ -110,8 +110,14 @@ interval=10
 #
 # The battery instance defaults to 0.
 [battery]
-#label=BAT
-label=⚡ 
+label=BAT0 
+#label=⚡ 
+interval=30
+
+[battery]
+label=BAT1 
+command=BAT_NUMBER=1 $HOME/.config/i3blocks/scripts/$BLOCK_NAME
+#label=⚡ 
 interval=30
 
 # Date Time
