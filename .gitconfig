@@ -8,7 +8,6 @@
         ci = commit
         br = branch
         co = checkout
-        sy = sync
         d  = diff
         a  = add
 [init]
