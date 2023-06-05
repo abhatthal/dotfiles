@@ -28,6 +28,12 @@ command=$HOME/.config/i3blocks/scripts/$BLOCK_NAME
 separator_block_width=15
 markup=none
 
+[mediaplayer]
+label=♪ 
+instance=spotify
+interval=5
+signal=10
+
 # Volume indicator
 #
 # The first parameter sets the step (and units to display)
@@ -35,8 +41,8 @@ markup=none
 # See the script for details.
 
 [volume]
-#label=♪
-label=VOL
+label=♪ 
+#label=VOL
 interval=once
 signal=10
 #STEP=5%
