@@ -53,6 +53,12 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Use playerctl to pause and play media and skip tracks.
+bindsym $mod+Ctrl+space exec playerctl play-pause
+# "," for previous and "." for next song.
+bind $mod+59 exec playerctl previous
+bind $mod+60 exec playerctl next
+
 # Use brightnessctl to adjust screen brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
