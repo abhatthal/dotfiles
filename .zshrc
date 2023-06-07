@@ -125,3 +125,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias zshconfig="$EDITOR ~/.zshrc"
 alias i3config="$EDITOR ~/.config/i3/config"
 
+# trash-cli alises
+alias tp=trash-put
+alias rt=trash-restore
