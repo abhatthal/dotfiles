@@ -1,0 +1,7 @@
+evhz-git
+funkin-rewritten
+mullvad-vpn
+passmenu-otp-git
+pfetch
+pinball
+yay
