@@ -30,7 +30,7 @@ markup=none
 
 [mediaplayer]
 label=♪ 
-instance=spotify
+instance=spotify,%any
 interval=5
 signal=10
 
@@ -44,7 +44,7 @@ signal=10
 label=♪ 
 #label=VOL
 interval=once
-signal=10
+signal=12
 #STEP=5%
 
 # Memory usage
@@ -166,11 +166,11 @@ interval=1
 #
 # bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 # bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
-#[keyindicator]
-#KEY=CAPS
-#markup=pango
-#interval=once
-#signal=11
+[keyindicator]
+KEY=CAPS
+markup=pango
+interval=once
+signal=11
 
 #[keyindicator]
 #KEY=NUM
