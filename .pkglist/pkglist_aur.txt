@@ -3,5 +3,5 @@ funkin-rewritten
 mullvad-vpn
 passmenu-otp-git
 pfetch
-pinball
+pipes.sh
 yay

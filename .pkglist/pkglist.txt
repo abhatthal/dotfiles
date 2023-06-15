@@ -7,6 +7,7 @@ bat
 brightnessctl
 btrfs-progs
 cmake
+cmatrix
 cronie
 dex
 dhcpcd
@@ -133,4 +134,5 @@ xorg-xwininfo
 xorg-xwud
 yt-dlp
 zathura
+zathura-pdf-mupdf
 zsh
