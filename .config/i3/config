@@ -53,9 +53,6 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-# Key indicators
-bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
-
 # Use pplayerctl to pause and play media and skip tracks.
 bindsym $mod+Ctrl+space exec pplayerctl play-pause
 # "," for previous and "." for next song.
