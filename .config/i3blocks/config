@@ -30,7 +30,7 @@ markup=none
 
 [mediaplayer]
 label=♪ 
-instance=spotify,%any
+instance=spotify
 interval=5
 signal=10
 
