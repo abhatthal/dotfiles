@@ -21,6 +21,7 @@ ffmpeg
 ffmpegthumbnailer
 firefox
 fuse3
+gimp
 git
 gnupg
 grub
