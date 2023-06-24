@@ -1,5 +1,6 @@
 [Default Applications]
 image/gif=mpv.desktop
+image/x-xcf=gimp.desktop
 text/html=firefox.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
