@@ -1,3 +1,4 @@
+betterlockscreen
 evhz-git
 funkin-rewritten
 mullvad-vpn

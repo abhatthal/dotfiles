@@ -32,9 +32,9 @@ highlight
 htop
 i3-wm
 i3blocks
-i3lock
 i3status
 ifplugd
+imagemagick
 inotify-tools
 intel-ucode
 iw
@@ -75,6 +75,7 @@ snapper
 speedtest-cli
 spotify-launcher
 tmux
+transmission-gtk
 trash-cli
 ttf-dejavu-nerd
 ueberzug
@@ -137,6 +138,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xss-lock
 yt-dlp
 zathura
 zathura-pdf-mupdf

@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+playerctl --player=$((cat ~/.player-priority 2>/dev/null; echo; playerctl -l)|awk '!x[$0]++'|paste -sd,) $*
