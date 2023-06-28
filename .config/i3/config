@@ -129,17 +129,11 @@ bindsym $mod+Shift+Down   move down
 bindsym $mod+Shift+Up     move up
 bindsym $mod+Shift+Right  move right
 
-# set position of laptop relative to external monitor on eDP-1
-bindsym $mod+Ctrl+$left  exec $HOME/.screenlayout/left.sh
-bindsym $mod+Ctrl+$down  exec $HOME/.screenlayout/bottom.sh
-bindsym $mod+Ctrl+$up    exec $HOME/.screenlayout/default.sh
-bindsym $mod+Ctrl+$right exec $HOME/.screenlayout/right.sh
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Ctrl+Left   exec $HOME/.screenlayout/left.sh
-bindsym $mod+Ctrl+Down   exec $HOME/.screenlayout/bottom.sh
-bindsym $mod+Ctrl+Up     exec $HOME/.screenlayout/default.sh
-bindsym $mod+Ctrl+Right  exec $HOME/.screenlayout/right.sh
+# Scripts for multi-monitor setups
+bindsym $mod+Ctrl+1    exec $HOME/.screenlayout/default.sh
+bindsym $mod+Ctrl+2    exec $HOME/.screenlayout/dual.sh
+bindsym $mod+Ctrl+3  exec $HOME/.screenlayout/bottom.sh
+bindsym $mod+Ctrl+4 exec $HOME/.screenlayout/right.sh
 
 # split in horizontal orientation
 bindsym $mod+b split h
