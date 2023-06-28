@@ -1,5 +1,6 @@
 acpi
 alacritty
+android-file-transfer
 arandr
 base
 base-devel
@@ -40,6 +41,7 @@ intel-ucode
 iw
 iwd
 libnotify
+libreoffice-fresh
 linux
 linux-firmware
 linux-headers
@@ -74,6 +76,7 @@ snap-pac
 snapper
 speedtest-cli
 spotify-launcher
+thunar
 tmux
 transmission-gtk
 trash-cli
