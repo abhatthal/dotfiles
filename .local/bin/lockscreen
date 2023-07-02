@@ -1,4 +1,4 @@
 #!/bin/sh
 
-betterlockscreen -l dim
+betterlockscreen --time-format '%I:%M:%S %p' -l dim -- --keyhl-color=0b5394
 
