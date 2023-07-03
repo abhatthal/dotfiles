@@ -14,6 +14,7 @@ cronie
 dex
 dhcpcd
 dialog
+discord
 dmenu
 efibootmgr
 exfat-utils
@@ -72,6 +73,7 @@ playerctl
 ranger
 rclone
 rsync
+signal-desktop
 snap-pac
 snapper
 speedtest-cli
@@ -81,7 +83,7 @@ tmux
 transmission-gtk
 trash-cli
 ttf-dejavu-nerd
-ueberzug
+unzip
 usbutils
 vi
 wget
@@ -145,4 +147,5 @@ xss-lock
 yt-dlp
 zathura
 zathura-pdf-mupdf
+zip
 zsh

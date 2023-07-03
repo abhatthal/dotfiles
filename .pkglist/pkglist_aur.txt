@@ -5,4 +5,5 @@ mullvad-vpn
 passmenu-otp-git
 pfetch
 pipes.sh
+ueberzugpp
 yay
