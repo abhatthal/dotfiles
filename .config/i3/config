@@ -207,9 +207,6 @@ bindsym $mod+p exec passmenu -p Passwd -fn $dmenu_fn
 # get a password and type it 
 bindsym $mod+Shift+p exec passmenu --type -p Passwd -fn $dmenu_fn 
 
-# games menu
-bindsym $mod+g exec cat ~/.games | dmenu -p Games -fn $dmenu_fn | sh
-
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
