@@ -63,6 +63,7 @@ openssh
 pass
 pass-otp
 pavucontrol
+perl-rename
 picom
 pipewire
 pipewire-alsa
