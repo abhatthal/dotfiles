@@ -16,6 +16,7 @@ dhcpcd
 dialog
 discord
 dmenu
+duf
 efibootmgr
 exfat-utils
 feh
