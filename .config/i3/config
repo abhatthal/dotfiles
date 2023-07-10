@@ -50,6 +50,9 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- lockscreen --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
+# Manage bluetooth devices
+exec --no-startup-id blueman-applet
+
 # Go to login screen
 bindsym $mod+Ctrl+q exec loginctl lock-session
 
