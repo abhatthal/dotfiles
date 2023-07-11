@@ -85,6 +85,7 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# screenshot and annotation tool
 bindsym Print exec flameshot gui
 
 # open music player
