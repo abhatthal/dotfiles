@@ -5,6 +5,9 @@ arandr
 base
 base-devel
 bat
+blueman
+bluez
+bluez-utils
 brightnessctl
 btrfs-progs
 chromium
@@ -23,6 +26,7 @@ feh
 ffmpeg
 ffmpegthumbnailer
 firefox
+flameshot
 fuse3
 gimp
 git

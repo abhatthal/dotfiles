@@ -85,6 +85,8 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+bindsym $mod+Print exec flameshot gui
+
 # open music player
 bindsym $mod+m exec spotify-launcher
 
