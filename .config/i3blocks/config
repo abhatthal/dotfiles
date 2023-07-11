@@ -41,8 +41,8 @@ signal=10
 # See the script for details.
 
 [volume]
-label=♪ 
-#label=VOL
+#label=♪ 
+label=VOL
 interval=once
 signal=12
 #STEP=5%
@@ -51,15 +51,15 @@ signal=12
 #
 # The type defaults to "mem" if the instance is not specified.
 [memory]
-label=MEM 
+label=RAM 
 separator=false
 interval=30
 
-[memory]
-label=SWAP 
-instance=swap
-separator=false
-interval=30
+#[memory]
+#label=SWAP 
+#instance=swap
+#separator=false
+#interval=30
 
 # Disk usage
 #
@@ -67,7 +67,7 @@ interval=30
 # The script may be called with a optional argument to set the alert
 # (defaults to 10 for 10%).
 [disk]
-label=HOME 
+label=/ 
 #DIR=/mnt/data
 interval=30
 
@@ -90,7 +90,8 @@ separator=false
 
 [wifi]
 #INTERFACE=wlan0
-label=wifi:
+#label=wifi:
+label=ᯤ 
 interval=10
 separator=true
 
@@ -116,14 +117,15 @@ interval=10
 #
 # The battery instance defaults to 0.
 [battery]
-label=BAT0 
-#label=⚡ 
+#label=BAT0 
+label=⚡INT 
 interval=30
+separator=false
 
 [battery]
-label=BAT1 
+#label=BAT1 
 command=BAT_NUMBER=1 $HOME/.config/i3blocks/scripts/$BLOCK_NAME
-#label=⚡ 
+label=⚡EXT 
 interval=30
 
 # Date Time
