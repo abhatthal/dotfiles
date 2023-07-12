@@ -66,9 +66,9 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use pplayerctl to pause and play media and skip tracks.
 bindsym $mod+Ctrl+space exec pplayerctl play-pause
 # "," for previous and "." for next song.
-bind $mod+59 exec pplayerctl previous && sleep 0.5 && exec pkill -SIGRTMIN+10 i3blocks 
+bind $mod+59 exec pplayerctl previous && sleep 1 && exec pkill -SIGRTMIN+10 i3blocks 
 
-bind $mod+60 exec pplayerctl next && sleep 0.5 && exec pkill -SIGRTMIN+10 i3blocks 
+bind $mod+60 exec pplayerctl next && sleep 1 && exec pkill -SIGRTMIN+10 i3blocks 
 
 
 # Use brightnessctl to adjust screen brightness

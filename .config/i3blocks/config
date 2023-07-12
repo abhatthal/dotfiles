@@ -31,7 +31,7 @@ markup=none
 [mediaplayer]
 label=♪ 
 instance=spotify
-interval=5
+interval=2
 signal=10
 
 # Volume indicator
