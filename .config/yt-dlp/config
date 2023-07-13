@@ -1,0 +1,18 @@
+# Lines starting with # are comments
+
+# Use cookies from Firefox
+# --cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]
+--cookies-from-browser firefox
+
+# Always extract audio
+#-x
+
+# Do not copy the mtime
+#--no-mtime
+
+# Use this proxy
+#--proxy 127.0.0.1:3128
+
+# Save all videos under YouTube directory in your home directory
+#-o ~/YouTube/%(title)s.%(ext)s
+
