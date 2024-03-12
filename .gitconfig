@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Kash Bhatthal
-	email = kashb@google.com
+	name = Akash Bhatthal
+	email = akashbhatthal@gmail.com
 [alias]
 	pushall = !git remote | xargs -L1 git push --all
         st = status
