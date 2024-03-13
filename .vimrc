@@ -7,7 +7,7 @@ nnoremap <SPACE> <Nop>
 let mapleader=" "
 
 " Set Vim colorscheme with transparency - https://stackoverflow.com/a/37720708
-colorscheme slate
+colorscheme wildcharm
 hi Normal guibg=NONE ctermbg=NONE
 
 " Better tab experience - https://webdevetc.com/blog/tabs-in-vim/
