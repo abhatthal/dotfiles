@@ -110,6 +110,12 @@ RANGER_LOAD_DEFAULT_RC=FALSE
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# mullvad VPN aliases
+alias ms="mullvad status"
+alias mr="mullvad reconnect"
+alias mc="mullvad connect"
+alias md="mullvad disconnect"
+
 # tmux aliases
 alias ta="tmux a"
 alias tn="tmux new -s"
