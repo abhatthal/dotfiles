@@ -4,6 +4,8 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+gaps inner 10
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -25,7 +27,8 @@ set $menu dmenu_path | dmenu | xargs swaymsg exec --
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+#output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg $HOME/Pictures/wallpapers/anime-girl-abyss.png fill
 #
 # Example configuration:
 #
@@ -79,6 +82,22 @@ exec swayidle -w \
 
     # Start your launcher
     bindsym $mod+d exec $menu
+
+    # Use pactl to adjust volume in PulseAudio.
+    bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +10%
+    bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -10%
+    bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+    bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+    
+    # Use playerctl to pause and play media and skip tracks.
+    #bindsym $mod+Ctrl+space exec playerctl play-pause
+    # "," for previous and "." for next song.
+    #bindsym $mod+59 exec pplayerctl previous
+    #bindsym $mod+60 exec pplayerctl next
+    
+    # Use brightnessctl to adjust screen brightness
+    bindsym XF86MonBrightnessUp exec brightnessctl set +10%
+    bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

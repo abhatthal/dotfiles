@@ -1,8 +1,11 @@
-screenshots
+image=$HOME/Pictures/wallpapers/angel-with-a-shotgun.jpg
 clock
+timestr=%l:%M %p
+datestr=%a, %b %d
 indicator
 indicator-radius=100
 indicator-thickness=7
-effect-blur=7x5
+effect-blur=2x6
 key-hl-color=0b5394
+fade-in=0.5
 
