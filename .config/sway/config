@@ -69,6 +69,7 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 
     # Start a web browser
     bindsym $mod+w exec $web
+    bindsym $mod+Shift+w exec $web --incognito
 
     # Kill focused window
     bindsym $mod+Shift+q kill
