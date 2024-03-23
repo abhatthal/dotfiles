@@ -6,6 +6,13 @@
 
 gaps inner 10
 
+### wlroots support
+#
+# https://github.com/flameshot-org/flameshot/blob/master/docs/Sway%20and%20wlroots%20support.md
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
@@ -19,11 +26,6 @@ set $right l
 set $term kitty
 # Set your default web browser
 set $web flatpak run com.google.Chrome
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
-#set $menu dmenu_path | dmenu | xargs swaymsg exec --
-set $menu rofi -show drun -show-icons
 
 ### Output configuration
 #
@@ -82,7 +84,10 @@ exec swayidle -w \
     bindsym $mod+Shift+q kill
 
     # Start your launcher
-    bindsym $mod+d exec $menu
+    bindsym $mod+d exec rofi -show drun -show-icons
+
+    # Get OTP codes in clipboard
+    bindsym $mod+Shift+d exec pass otp $(pass ls | cut -d " " -f2- | tail -n +2 | rofi -dmenu -show-icons) -c
 
     # Use pactl to adjust volume in PulseAudio.
     bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +10%
