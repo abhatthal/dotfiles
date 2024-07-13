@@ -1,9 +1,5 @@
 # Lines starting with # are comments
 
-# Use cookies from Firefox
-# --cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]
---cookies-from-browser firefox
-
 # Always extract audio
 #-x
 
