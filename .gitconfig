@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Akash Bhatthal
+	email = akashbhatthal@gmail.com
+[alias]
+	pushall = !git remote | xargs -L1 git push --all
+        st = status
+        ci = commit
+        br = branch
+        co = checkout
+        d  = diff
+        a  = add
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
