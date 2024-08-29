@@ -5,6 +5,10 @@ export PATH=$HOME/.local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-22.0.2.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -126,4 +130,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 # trash-cli alises
 alias tp=trash-put
 alias rt=trash-restore
+
+# Homebrew aliases
+alias brew64="/usr/local/Homebrew/bin/brew"
 
