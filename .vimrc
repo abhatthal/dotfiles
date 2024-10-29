@@ -2,6 +2,7 @@ syntax on
 set cc=80
 set number
 set backspace=indent,eol,start
+set tabstop=4
 
 nnoremap <SPACE> <Nop>
 let mapleader=" "
